@@ -6,7 +6,7 @@
 </script>
 
 <header class="relative h-[810px] bg-[url('assets/hero-overlay.png')] bg-center bg-cover bg-no-repeat">
-    <div class="mix-blend-multiply absolute inset-0 bg-overlay/90 z-10"></div>
+    <div class="mix-blend-multiply absolute inset-0 bg-primary/90 z-10"></div>
     
     <div class="relative container mx-auto z-20 py-10 px-20 flex items-center justify-between">
         <img src={brandLogo} alt="Brand Logo" class="h-10 object-center object-cover -mt-4 cursor-pointer">

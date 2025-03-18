@@ -3,5 +3,6 @@
 
 @theme {
   --font-hanken-grotesk: "Hanken Grotesk", sans-serif;
-  --color-overlay: #165648;
+  --color-primary: #165648;
+  --color-beige: #F5F6F8;
 }

@@ -4,9 +4,17 @@
 
 <div class="flex flex-col gap-4 px-6 py-4 bg-beige min-h-[420px] rounded-xl">
     <div class="flex flex-col gap-4 max-w-72">
-        <h4 class="line-clamp-3 font-extrabold text-3xl">{title}</h4>
+        <h4
+            class="line-clamp-3 font-extrabold text-3xl hover:text-primary/90 cursor-pointer"
+        >
+            {title}
+        </h4>
         <p class="line-clamp-3 text-sm">{description}</p>
     </div>
 
-    <img src={imgPath} alt={title} class="h-44 object-cover object-center rounded-lg">
+    <img
+        src={imgPath}
+        alt={title}
+        class="h-44 object-cover object-center rounded-lg hover:opacity-90 cursor-pointer"
+    />
 </div>

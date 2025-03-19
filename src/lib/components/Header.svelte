@@ -20,7 +20,7 @@
 </script>
 
 <header
-    class="relative h-[810px] bg-[url('assets/hero-overlay.png')] bg-center bg-cover bg-no-repeat"
+    class="relative h-[810px] bg-[url('/assets/hero-overlay.png')] bg-center bg-cover bg-no-repeat"
 >
     <div class="mix-blend-multiply absolute inset-0 bg-primary/90 z-10"></div>
 

@@ -59,12 +59,10 @@
     <section class="py-20 px-10 lg:py-40 lg:px-20">
         <Headline category="Fitur" desc="Semua Kenyamanan dalam Satu Masjid" />
 
-        <div
-            class="flex flex-col lg:flex-row gap-8 lg:gap-4 items-center justify-center mt-10"
-        >
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-10">
             {#each features as feature, i}
                 <div
-                    class="flex flex-row lg:flex-col gap-4 text-start lg:text-center items-center justify-center"
+                    class="flex flex-col items-center justify-center text-center gap-4"
                 >
                     <img
                         src={feature.imgPath}

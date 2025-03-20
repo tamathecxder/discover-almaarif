@@ -27,7 +27,7 @@
     <button
         data-collapse-toggle="navbar-hamburger"
         type="button"
-        class="lg:hidden bg-white fixed top-0 right-0 z-[9999] inline-flex items-center justify-center p-2 m-2 text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+        class="lg:hidden bg-white fixed top-0 right-0 z-[9999] inline-flex items-center justify-center p-2 m-4 text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
         aria-controls="navbar-hamburger"
         aria-expanded="false"
         onclick={toggle}

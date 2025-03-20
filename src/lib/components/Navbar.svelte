@@ -25,7 +25,7 @@
     class="{isHamburgerOpen
         ? 'block lg:hidden translate-y-0'
         : 'hidden -translate-y-5'} 
-           bg-white/90 fixed container mx-auto z-[9998] py-6 px-4 rounded-lg shadow-lg transition-all duration-300 ease-in-out transform"
+           bg-white/90 fixed w-full mx-auto z-[9998] py-6 px-4 rounded-lg shadow-lg transition-all duration-300 ease-in-out transform"
 >
     <nav>
         <ul class="flex flex-col gap-4 text-primary">
